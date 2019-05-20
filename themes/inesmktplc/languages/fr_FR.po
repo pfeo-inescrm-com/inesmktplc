@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-17 19:25+0000\n"
-"PO-Revision-Date: 2019-05-17 19:29+0000\n"
+"POT-Creation-Date: 2019-05-20 18:33+0000\n"
+"PO-Revision-Date: 2019-05-20 18:35+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Welcome to INES Marketplace!"
 msgstr "Bienvenue sur la Marketplace INES !"
 
 #: BK_20190517_home.php:54 page-home.php:50
-#: template-parts/header-search-fullwidth.php:42
+#: template-parts/header-search-fullwidth.php:39
 msgid "Simply connect your <span>CRM</span> to your Tools"
 msgstr "Connectez simplement votre <span>CRM</span> à vos Outils"
 
@@ -76,6 +76,7 @@ msgid "Leave Your Messages"
 msgstr "Laissez vos messages"
 
 #. Name of the template
+#: template-parts/header-search-fullwidth.php:54
 msgid "Home"
 msgstr "Accueil"
 
@@ -217,7 +218,7 @@ msgstr "Contactez-nous"
 msgid "Pages:"
 msgstr "Pages :"
 
-#: template-parts/header-search-fullwidth.php:38
+#: template-parts/header-search-fullwidth.php:35
 msgid "Integrate <span>INES</span> with all your tools"
 msgstr "Intégrez <span>INES</span> avec tous vos outils"
 
@@ -234,7 +235,7 @@ msgstr "Chercher ..."
 msgid "Search for:"
 msgstr "Chercher ..."
 
-#: woocommerce/content-product.php:56 woocommerce/single-product/related.php:66
+#: woocommerce/content-product.php:56 woocommerce/single-product/related.php:79
 msgid "More info"
 msgstr "Plus d'info"
 
@@ -256,6 +257,12 @@ msgstr "Afficher les posts"
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:107
 msgid "Filter Products"
 msgstr "Filtrer les produits"
+
+#: woocommerce/single-product/sidebar-single-product.php:46
+msgid "No attributes"
+msgstr ""
+"\n"
+"Aucun attribut"
 
 #. Name of the theme
 msgid "INES CRM Marketplace"

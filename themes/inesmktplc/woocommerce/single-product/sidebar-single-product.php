@@ -43,7 +43,7 @@ $pattrs = $product->get_attributes();
         <?php
 
         if (!$pattrs) {
-            echo "No attributes";
+            _e('No attributes', 'inesmktplc');
         }
 
         // iterate product attributes

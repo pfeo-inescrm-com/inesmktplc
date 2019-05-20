@@ -24,98 +24,111 @@ if (!defined('ABSPATH')) {
 // global $product;
 // $pid = $product->get_id();
 
+$second_thumb = MultiPostThumbnails::get_the_post_thumbnail(get_post_type(), 'secondary-image');
 
 if ($related_products) : ?>
 
-<!--============================================
-				START RELATED PRODUCTS
-					==============================================-->
-<section class="more_product_area section--padding">
-	<div class="container">
-		<div class="row">
-			<!-- start col-md-12 -->
-			<div class="col-md-12">
-				<div class="section-title">
-					<h2><?php esc_html_e('Related products', 'woocommerce'); ?></h2>
+	<!--============================================
+					START RELATED PRODUCTS
+						==============================================-->
+	<section class="more_product_area section--padding">
+		<div class="container">
+			<div class="row">
+				<!-- start col-md-12 -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h2><?php esc_html_e('Related products', 'woocommerce'); ?></h2>
+					</div>
 				</div>
-			</div>
-			<!-- end /.col-md-12 -->
+				<!-- end /.col-md-12 -->
 
-			<?php
+				<?php
 				?>
 
-			<?php foreach ($related_products as $related_product) : ?>
+				<?php foreach ($related_products as $related_product) : ?>
 
-			<?php
+					<?php
 					$post_object = get_post($related_product->get_id());
 
 					setup_postdata($GLOBALS['post'] = &$post_object);
 
 					?>
 
-			<!-- start .col-lg-4 col-md-6 -->
-			<div class="col-lg-4 col-md-6">
+					<!-- start .col-lg-4 col-md-6 -->
+					<div class="col-lg-4 col-md-6">
 
-				<!-- start .single-product -->
-				<div class="product product--card product--card-small">
-					<!-- start product__thumbnail -->
-					<div class="product__thumbnail">
-						<?php echo woocommerce_get_product_thumbnail(); ?>
-						<div class="prod_btn">
-							<a href="<?php echo get_permalink($post_object); ?>"
-								class="transparent btn--sm btn--round"><?php esc_html_e('More info', 'inesmktplc'); ?></a>
-							<!-- <a href="single-product.html" class="transparent btn--sm btn--round">Demo</a> -->
-						</div>
-						<!-- end /.prod_btn -->
-					</div>
-					<!-- end /.product__thumbnail -->
+						<!-- start .single-product -->
+						<div class="product product--card product--card-small">
+							<!-- start product__thumbnail -->
+							<div class="product__thumbnail">
+								<?php 
+								?>
+								<?php
+								// this is the default product thumbnail
+								//echo woocommerce_get_product_thumbnail();
 
-					<!-- start product-desc -->
-					<div class="product-desc">
-						<a href="<?php echo get_permalink($post_object); ?>" class="product_title">
-							<h4><?php echo $related_product->get_title(); ?></h4>
-						</a>
-						<ul class="titlebtm">
-							<li>
-								<!-- <img class="auth-img" src="images/auth3.jpg" alt="author image"> -->
-								<p>
-									<a href="<?php echo get_permalink($post_object); ?>">
-										<?php echo $related_product->get_short_description(); ?>
-									</a>
-								</p>
-							</li>
-						</ul>
-					</div>
-					<!-- end /.product-desc -->
+								// show different thumbnail than featured image
 
-					<!-- start product-purchase -->
-					<div class="product-purchase">
-						<div class="price_love">
-							<span><?php echo $related_product->get_price_html(); ?></span>
+								if (class_exists('MultiPostThumbnails') && $second_thumb) {
+									MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+								} else {
+									echo woocommerce_get_product_thumbnail();
+								}
+								?>
+								<div class="prod_btn">
+									<a href="<?php echo get_permalink($post_object); ?>" class="transparent btn--sm btn--round"><?php esc_html_e('More info', 'inesmktplc'); ?></a>
+									<!-- <a href="single-product.html" class="transparent btn--sm btn--round">Demo</a> -->
+								</div>
+								<!-- end /.prod_btn -->
+							</div>
+							<!-- end /.product__thumbnail -->
+
+							<!-- start product-desc -->
+							<div class="product-desc">
+								<a href="<?php echo get_permalink($post_object); ?>" class="product_title">
+									<h4><?php echo $related_product->get_title(); ?></h4>
+								</a>
+								<ul class="titlebtm">
+									<li>
+										<!-- <img class="auth-img" src="images/auth3.jpg" alt="author image"> -->
+										<p>
+											<a href="<?php echo get_permalink($post_object); ?>">
+												<?php echo $related_product->get_short_description(); ?>
+											</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<!-- end /.product-desc -->
+
+							<!-- start product-purchase -->
+							<div class="product-purchase">
+								<div class="price_love">
+									<span><?php echo $related_product->get_price_html(); ?></span>
+								</div>
+								<div class="first-category">
+									<span class="lnr lnr-list"></span>
+									<?php echo inesmktplc_get_the_term_list_first_result($post_object, 'product_cat'); ?>
+								</div>
+							</div>
+							<!-- end /.product-purchase -->
+
 						</div>
-						<div class="first-category">
-							<span class="lnr lnr-list"></span>
-							<?php echo inesmktplc_get_the_term_list_first_result($post_object, 'product_cat'); ?>
-						</div>
+						<!-- end /.single-product -->
+
 					</div>
-					<!-- end /.product-purchase -->
-					
-				</div>
-				<!-- end /.single-product -->
-				
+					<!-- end /.col-lg-4 col-md-6 -->
+
+				<?php endforeach; ?>
+
 			</div>
-			<!-- end /.col-lg-4 col-md-6 -->
-
-			<?php endforeach; ?>
-
+			<!-- end /.row -->
 		</div>
-		<!-- end /.row -->
-	</div>
-	<!-- end /.container -->
-</section>
-<!--============================================
-				END RELATED PRODUCTS
-				==============================================-->
+		<!-- end /.container -->
+	</section>
+	<!--============================================
+					END RELATED PRODUCTS
+					==============================================-->
 
 <?php endif;
 
