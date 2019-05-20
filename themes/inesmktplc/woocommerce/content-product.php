@@ -70,7 +70,9 @@ $second_thumb = MultiPostThumbnails::get_the_post_thumbnail(get_post_type(), 'se
 					<!-- <img class="auth-img" src="images/auth3.jpg" alt="author image"> -->
 					<p>
 						<a href="<?php echo get_permalink($post_object); ?>">
-							<?php echo $product->get_short_description(); ?>
+							<?php 
+							$short_desc = $product->get_short_description();
+							echo mb_strimwidth($short_desc, 0, 50, '...' ); ?>
 						</a>
 					</p>
 				</li>
