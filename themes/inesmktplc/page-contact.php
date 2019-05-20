@@ -30,7 +30,7 @@
                                 <?php _e('How can We <span class="highlighted">Help?</span>', 'inesmktplc'); ?>
                             </h1>
                             <p>
-                                <?php _e('Subtitle here', 'inesmktplc'); ?>
+                                <?php //_e('Subtitle here', 'inesmktplc'); ?>
                             </p>
                         </div>
                     </div>
