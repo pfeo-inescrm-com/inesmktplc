@@ -1,9 +1,10 @@
 index.php
+backups/
 languages/
 plugins/
 themes/index.php
 themes/storefront/
 themes/twentynineteen/
+updraft/
 upgrade/
 uploads/
-
