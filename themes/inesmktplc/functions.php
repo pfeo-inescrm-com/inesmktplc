@@ -139,9 +139,11 @@ add_action('woocommerce_after_shop_loop', 'woocommerce_pagination', 20);
 // add ending container and section tags to shop page
 add_action('woocommerce_after_shop_loop', 'inesmktplc_wc_shop_container_end', 30);
 
+
+
 /**
  * custom items per page dropdown
- * intended to shoy in products page
+ * intended to show in products page
  * 
  */
 function inesmktplc_wc_items_per_page_dropdown()
@@ -275,21 +277,23 @@ add_action('init', 'inesmktplc_redirect_to_actual_login');
 // }
 // add_action( 'wp_login_failed', 'inesmktplc_redirect_if_login_fails' );
 
-function login_failed() {
-  $login_page  = home_url( '/login/' );
-  wp_redirect( $login_page . '?login=failed' );
+function login_failed()
+{
+  $login_page  = home_url('/login/');
+  wp_redirect($login_page . '?login=failed');
   exit;
 }
-add_action( 'wp_login_failed', 'login_failed' );
- 
-function verify_username_password( $user, $username, $password ) {
-  $login_page  = home_url( '/login/' );
-    if( $username == "" || $password == "" ) {
-        wp_redirect( $login_page . "?login=empty" );
-        exit;
-    }
+add_action('wp_login_failed', 'login_failed');
+
+function verify_username_password($user, $username, $password)
+{
+  $login_page  = home_url('/login/');
+  if ($username == "" || $password == "") {
+    wp_redirect($login_page . "?login=empty");
+    exit;
+  }
 }
-add_filter( 'authenticate', 'verify_username_password', 1, 3);
+add_filter('authenticate', 'verify_username_password', 1, 3);
 
 // redirect user to homepage after login
 function inesmktplc_redirect_upon_login()

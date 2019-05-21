@@ -78,7 +78,7 @@ function inesmktplc_wc_remove_product_tabs($tabs)
  */
 function inesmktplc_wc_show_related_products_fullwidth()
 {
-    echo do_shortcode('[related_products limit="3"]');
+    echo do_shortcode('[related_products limit="4"]');
 }
 
 /**
