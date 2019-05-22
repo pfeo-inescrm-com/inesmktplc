@@ -11446,6 +11446,9 @@ body.search {
 .search-results-wrapper {
   padding-top: 30px;
   padding-bottom: 30px; }
+  .search-results-wrapper .product__thumbnail img {
+    height: auto;
+    max-width: 100%; }
 
 /*--------------------------------------------------------------
 # Ninja Forms

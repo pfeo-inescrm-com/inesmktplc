@@ -34,7 +34,14 @@ setup_postdata($GLOBALS['post'] = &$post_object);
 $second_thumb = MultiPostThumbnails::get_the_post_thumbnail(get_post_type(), 'secondary-image');
 
 ?>
+<?php if (is_search()) : ?>
+<div class="col-lg-3 col-sm-6">
+
+<?php else : ?>
 <div class="col-lg-4 col-sm-6 col-12">
+
+<?php endif; ?>
+
 	<!-- start .single-product -->
 	<div <?php wc_product_class('product--card product--card-small', $product); ?>>
 		<!-- start product__thumbnail -->
