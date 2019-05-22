@@ -1,6 +1,6 @@
 # just allow access to content related files
 order deny,allow
 deny from all
-<files ~ ".(xml|css|jpe?g|png|gif|js|pdf)$">
+<files ~ ".(xml|css|jpe?g|png|gif|js|pdf|woff|woff2|ttf)$">
 allow from all
 </files>
