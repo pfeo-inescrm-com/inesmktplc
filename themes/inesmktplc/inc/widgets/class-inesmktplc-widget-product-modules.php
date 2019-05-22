@@ -63,11 +63,13 @@ class Inesmktplc_Widget_Product_Modules extends WP_Widget
             <?php
             $mod_attr_term = get_terms('pa_modules', $mod_args);
 
-            if (!empty($mod_attr_term)) {
+            if (!empty($mod_attr_term) && ! is_wp_error($mod_attr_term)) {
+
                 foreach ($mod_attr_term as $term) {
+                    $archive_link = get_term_link( $term->slug, 'pa_modules' );
                     //echo "<li>" . $term->name . '--' . $term->count . "</li>";
                     echo '<li>';
-                    echo '<a href="' . $term->slug . '" ><span class="lnr lnr-chevron-right"></span>';
+                    echo '<a href="' . $archive_link . '" ><span class="lnr lnr-chevron-right"></span>';
                     echo $term->name;
                     if ($c) {
                         echo '<span class="item-count">';
@@ -78,7 +80,6 @@ class Inesmktplc_Widget_Product_Modules extends WP_Widget
                     echo '</li>';
                 }
             }
-
             ?>
         </ul>
     </div>

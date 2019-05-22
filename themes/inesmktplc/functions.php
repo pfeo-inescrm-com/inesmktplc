@@ -140,8 +140,6 @@ add_action('woocommerce_after_shop_loop', 'woocommerce_pagination', 20);
 // add ending container and section tags to shop page
 add_action('woocommerce_after_shop_loop', 'inesmktplc_wc_shop_container_end', 30);
 
-
-
 /**
  * custom items per page dropdown
  * intended to show in products page
