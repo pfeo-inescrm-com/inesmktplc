@@ -5957,8 +5957,8 @@ span.counter {
       color: #fff; }
 
 .footer-widget-title {
-  line-height: 42px;
-  margin-bottom: 10px; }
+  line-height: 30px;
+  margin-bottom: 20px; }
 
 .field-wrapper {
   position: relative;
@@ -11528,5 +11528,4 @@ body.search {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-
 /*# sourceMappingURL=style.css.map */
