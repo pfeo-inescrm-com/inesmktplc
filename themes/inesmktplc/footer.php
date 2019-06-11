@@ -42,7 +42,7 @@
                     </div>
                     <!-- end /.col-lg-3 -->
 
-                    <div class="col-lg-3 col-md-6 col-12 mt-5 mt-lg-0">
+                    <div class="col-lg-3 col-md-6 col-12 mt-5 mt-md-0">
                         <?php
                         if (is_active_sidebar('inesmktplc-sidebar-footer-2')) {
                             dynamic_sidebar('inesmktplc-sidebar-footer-2');
