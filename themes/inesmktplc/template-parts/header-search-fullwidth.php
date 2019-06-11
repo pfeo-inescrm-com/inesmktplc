@@ -47,17 +47,41 @@
                             ?>
                         </div>
                         <div class="breadcrumb-wrapper">
-                            <?php if (is_front_page()) : ?>
+                            <!-- <?php 
+                                    ?>
                                 <nav class="woocommerce-breadcrumb">
                                     <li>
-                                        <a href="<?php echo home_url(); ?>">
-                                            <?php _e('Home', 'inesmktplc'); ?>
+                                        <a href="<?php 
+                                                    ?>">
+                                            <?php 
+                                            ?>
                                         </a>
                                     </li>
+                                </nav>
+                            <?php 
+                            ?>
+                                <?php 
+                                ?>
+                            <?php 
+                            ?> -->
+
+
+                            <?php
+                            //remove breadcrumb from homepage that is set to shop as well
+                            if (is_front_page() || is_shop()) :
+                                ?>
+                                <nav class="woocommerce-breadcrumb" style="height:70px;">
+                                    <p>&nbsp;</p>
                                 </nav>
                             <?php else : ?>
                                 <?php woocommerce_breadcrumb(); ?>
                             <?php endif; ?>
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>
