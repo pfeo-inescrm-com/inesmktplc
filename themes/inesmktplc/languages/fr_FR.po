@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 14:29+0000\n"
-"PO-Revision-Date: 2019-06-11 14:33+0000\n"
+"PO-Revision-Date: 2019-06-11 15:55+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -117,11 +117,11 @@ msgstr ""
 
 #: inc/inesmktplc-wc-template-functions.php:207
 msgid "Items per page"
-msgstr ""
+msgstr "Résultats par page"
 
 #: inc/inesmktplc-wc-template-functions.php:214
 msgid "items per page"
-msgstr ""
+msgstr "résultats par page"
 
 #: inc/setup.php:11
 msgid "Primary Menu"
