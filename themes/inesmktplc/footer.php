@@ -42,7 +42,7 @@
                     </div>
                     <!-- end /.col-lg-3 -->
 
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12 mt-5 mt-lg-0">
                         <?php
                         if (is_active_sidebar('inesmktplc-sidebar-footer-2')) {
                             dynamic_sidebar('inesmktplc-sidebar-footer-2');
@@ -51,7 +51,7 @@
                     </div>
                     <!-- end /.col-lg-3 -->
 
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12 mt-5 mt-lg-0">
                         <?php
                         if (is_active_sidebar('inesmktplc-sidebar-footer-3')) {
                             dynamic_sidebar('inesmktplc-sidebar-footer-3');
@@ -115,7 +115,7 @@
                     </div>
                     <!-- end /.col-lg-3 -->
 
-                    <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg-3 col-md-6 col-12 mt-5 mt-lg-0">
                     <div class="info__logo">
                                 <img src="<?php echo get_template_directory_uri() . '/assets/images/logo-inescrm-white-166x35.png';  ?>" alt="footer logo">
                             </div>
