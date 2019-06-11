@@ -4,6 +4,12 @@
  * functions and definitions
  *
  * @since 0.1.0
+ * 
+ * DO NOT INCLUDE TRANSLATIONS STRINGS HERE
+ * SINCE LOCO TRANSLATE PLUGIN DOES NOT
+ * PROCESS FILES MORE THAN 100KB
+ * 
+ * 
  */
 
 /**
@@ -145,22 +151,22 @@ add_action('woocommerce_after_shop_loop', 'inesmktplc_wc_shop_container_end', 30
  * intended to show in products page
  * 
  */
-function inesmktplc_wc_items_per_page_dropdown()
-{
-  $per_page = filter_input(INPUT_GET, 'perpage', FILTER_SANITIZE_NUMBER_INT);
-  echo '<select name="price" onchange="if (this.value) window.location.href=this.value">';
-  echo '<option disabled selected>' . __('Items per page', 'inesmtkplc') . '</option>';
-  $orderby_options = array(
-    '9' => '9',
-    '15' => '15',
-    '30' => '30'
-  );
-  foreach ($orderby_options as $value => $label) {
-    echo "<option " . selected($per_page, $value) . " value='?perpage=$value'>$label " . __('items per page', 'inesmtkplc') . "</option>";
-  }
-  echo '</select>';
-  echo '<span class="lnr lnr-chevron-down"></span>';
-}
+// function inesmktplc_wc_items_per_page_dropdown()
+// {
+//   $per_page = filter_input(INPUT_GET, 'perpage', FILTER_SANITIZE_NUMBER_INT);
+//   echo '<select name="price" onchange="if (this.value) window.location.href=this.value">';
+//   echo '<option disabled selected>' . __('Items per page', 'inesmtkplc') . '</option>';
+//   $orderby_options = array(
+//     '9' => '9',
+//     '15' => '15',
+//     '30' => '30'
+//   );
+//   foreach ($orderby_options as $value => $label) {
+//     echo "<option " . selected($per_page, $value) . " value='?perpage=$value'>$label " . __('items per page', 'inesmtkplc') . "</option>";
+//   }
+//   echo '</select>';
+//   echo '<span class="lnr lnr-chevron-down"></span>';
+// }
 
 add_action('pre_get_posts', 'inesmktplc_pre_get_products_query');
 function inesmktplc_pre_get_products_query($query)

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 14:13+0000\n"
-"PO-Revision-Date: 2019-06-11 14:14+0000\n"
+"POT-Creation-Date: 2019-06-11 14:29+0000\n"
+"PO-Revision-Date: 2019-06-11 14:33+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "<strong>Oh oh!</strong> Vous êtes déconnecté."
 
 #. Name of the template
 msgid "Presentation"
-msgstr ""
+msgstr "Présentation"
 
 #: search.php:24
 msgid "results found based on keyword(s):"
@@ -113,6 +113,14 @@ msgstr "gratuit"
 
 #: inc/inesmktplc-wc-template-functions.php:62
 msgid "on demand"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:207
+msgid "Items per page"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:214
+msgid "items per page"
 msgstr ""
 
 #: inc/setup.php:11

@@ -193,3 +193,26 @@ function inesmktplc_wc_shop_container_end()
             <!-- end /.container -->
                 </section>';
 }
+
+
+/**
+ * custom items per page dropdown
+ * intended to show in products page
+ * 
+ */
+function inesmktplc_wc_items_per_page_dropdown()
+{
+  $per_page = filter_input(INPUT_GET, 'perpage', FILTER_SANITIZE_NUMBER_INT);
+  echo '<select name="price" onchange="if (this.value) window.location.href=this.value">';
+  echo '<option disabled selected>' . __('Items per page', 'inesmktplc') . '</option>';
+  $orderby_options = array(
+    '9' => '9',
+    '15' => '15',
+    '30' => '30'
+  );
+  foreach ($orderby_options as $value => $label) {
+    echo "<option " . selected($per_page, $value) . " value='?perpage=$value'>$label " . __('items per page', 'inesmktplc') . "</option>";
+  }
+  echo '</select>';
+  echo '<span class="lnr lnr-chevron-down"></span>';
+}

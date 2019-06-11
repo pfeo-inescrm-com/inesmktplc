@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 14:13+0000\n"
+"POT-Creation-Date: 2019-06-11 14:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -110,6 +110,14 @@ msgstr ""
 
 #: inc/inesmktplc-wc-template-functions.php:62
 msgid "on demand"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:207
+msgid "Items per page"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:214
+msgid "items per page"
 msgstr ""
 
 #: inc/setup.php:11
