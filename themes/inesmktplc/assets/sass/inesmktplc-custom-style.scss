@@ -36,8 +36,14 @@ $facebookColor: #516ca4;
 # Content
 --------------------------------------------------------------*/
 
-.top-menu-area .site-name {
-  color: $primary;
+.top-menu-area {
+  .logo img.custom-logo {
+    width: 150px;
+    height: auto;
+  }
+  .site-name {
+    color: $primary;
+  }
 }
 
 .search__title p {

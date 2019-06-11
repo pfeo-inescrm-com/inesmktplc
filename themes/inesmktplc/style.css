@@ -11214,6 +11214,9 @@ span.counter {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.top-menu-area .logo img.custom-logo {
+  width: 150px;
+  height: auto; }
 .top-menu-area .site-name {
   color: #0066AC; }
 
