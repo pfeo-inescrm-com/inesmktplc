@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 14:29+0000\n"
+"POT-Creation-Date: 2019-06-12 13:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Integration catalogue"
 msgstr ""
 
-#: footer.php:183
+#: footer.php:184
 msgid "All rights reserved"
 msgstr ""
 
@@ -259,7 +259,11 @@ msgstr ""
 msgid "Filter Products"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:22
+msgid "Install"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:47
 msgid "No attributes"
 msgstr ""
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 14:29+0000\n"
-"PO-Revision-Date: 2019-06-11 16:47+0000\n"
+"POT-Creation-Date: 2019-06-12 13:20+0000\n"
+"PO-Revision-Date: 2019-06-12 13:20+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Connectez simplement votre <span>CRM</span> à vos applications"
 msgid "Integration catalogue"
 msgstr "Catalogue d'intégrations"
 
-#: footer.php:183
+#: footer.php:184
 msgid "All rights reserved"
 msgstr "Tous droits réservés"
 
@@ -264,7 +264,11 @@ msgstr "Afficher les posts"
 msgid "Filter Products"
 msgstr "Filtrer les produits"
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:22
+msgid "Install"
+msgstr "Installer"
+
+#: woocommerce/single-product/sidebar-single-product.php:47
 msgid "No attributes"
 msgstr ""
 "\n"
