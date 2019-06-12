@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 18:33+0000\n"
+"POT-Creation-Date: 2019-06-12 13:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Integration catalogue"
 msgstr ""
 
-#: footer.php:183
+#: footer.php:184
 msgid "All rights reserved"
 msgstr ""
 
@@ -50,10 +50,6 @@ msgstr ""
 
 #: page-contact.php:30
 msgid "How can We <span class=\"highlighted\">Help?</span>"
-msgstr ""
-
-#: page-contact.php:33
-msgid "Subtitle here"
 msgstr ""
 
 #: page-contact.php:46
@@ -77,7 +73,6 @@ msgid "Leave Your Messages"
 msgstr ""
 
 #. Name of the template
-#: template-parts/header-search-fullwidth.php:54
 msgid "Home"
 msgstr ""
 
@@ -115,6 +110,14 @@ msgstr ""
 
 #: inc/inesmktplc-wc-template-functions.php:62
 msgid "on demand"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:207
+msgid "Items per page"
+msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:214
+msgid "items per page"
 msgstr ""
 
 #: inc/setup.php:11
@@ -231,20 +234,23 @@ msgstr ""
 msgid "Search for:"
 msgstr ""
 
-#: woocommerce/content-product.php:56 woocommerce/single-product/related.php:79
+#: woocommerce/content-product.php:63 woocommerce/single-product/related.php:72
 msgid "More info"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:103
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:101
 msgid "Categories"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:113
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:114
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:108
 msgid "Title:"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:146
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:116
 msgid "Show post counts"
 msgstr ""
 
@@ -253,7 +259,11 @@ msgstr ""
 msgid "Filter Products"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:22
+msgid "Install"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:47
 msgid "No attributes"
 msgstr ""
 

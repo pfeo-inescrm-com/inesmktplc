@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 18:33+0000\n"
-"PO-Revision-Date: 2019-05-20 18:35+0000\n"
+"POT-Creation-Date: 2019-06-12 13:20+0000\n"
+"PO-Revision-Date: 2019-06-12 13:20+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.2.2; wp-5.2\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1\n"
 "Last-Translator: p.feo <p.feo@inescrm.com>\n"
 "Language: fr_FR"
 
@@ -33,13 +33,13 @@ msgstr "Bienvenue sur la Marketplace INES !"
 #: BK_20190517_home.php:54 page-home.php:50
 #: template-parts/header-search-fullwidth.php:39
 msgid "Simply connect your <span>CRM</span> to your Tools"
-msgstr "Connectez simplement votre <span>CRM</span> à vos Outils"
+msgstr "Connectez simplement votre <span>CRM</span> à vos applications"
 
 #: BK_20190517_home.php:66 page-home.php:62
 msgid "Integration catalogue"
 msgstr "Catalogue d'intégrations"
 
-#: footer.php:183
+#: footer.php:184
 msgid "All rights reserved"
 msgstr "Tous droits réservés"
 
@@ -49,11 +49,7 @@ msgstr ""
 
 #: page-contact.php:30
 msgid "How can We <span class=\"highlighted\">Help?</span>"
-msgstr "Comment pouvons-nous <span class=\"highlight\"> aider ? </span>"
-
-#: page-contact.php:33
-msgid "Subtitle here"
-msgstr ""
+msgstr "Vous souhatiez rejoindre la Marketplace INES CRM ?"
 
 #: page-contact.php:46
 msgid "Office Address"
@@ -73,10 +69,9 @@ msgstr ""
 
 #: page-contact.php:90
 msgid "Leave Your Messages"
-msgstr "Laissez vos messages"
+msgstr "Laissez-nous votre message"
 
 #. Name of the template
-#: template-parts/header-search-fullwidth.php:54
 msgid "Home"
 msgstr "Accueil"
 
@@ -101,7 +96,7 @@ msgstr "<strong>Oh oh!</strong> Vous êtes déconnecté."
 
 #. Name of the template
 msgid "Presentation"
-msgstr ""
+msgstr "Présentation"
 
 #: search.php:24
 msgid "results found based on keyword(s):"
@@ -119,6 +114,14 @@ msgstr "gratuit"
 #: inc/inesmktplc-wc-template-functions.php:62
 msgid "on demand"
 msgstr ""
+
+#: inc/inesmktplc-wc-template-functions.php:207
+msgid "Items per page"
+msgstr "Résultats par page"
+
+#: inc/inesmktplc-wc-template-functions.php:214
+msgid "items per page"
+msgstr "résultats par page"
 
 #: inc/setup.php:11
 msgid "Primary Menu"
@@ -235,20 +238,23 @@ msgstr "Chercher ..."
 msgid "Search for:"
 msgstr "Chercher ..."
 
-#: woocommerce/content-product.php:56 woocommerce/single-product/related.php:79
+#: woocommerce/content-product.php:63 woocommerce/single-product/related.php:72
 msgid "More info"
 msgstr "Plus d'info"
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:103
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:101
 msgid "Categories"
 msgstr "Catégories"
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:113
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:114
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:108
 msgid "Title:"
 msgstr "Titre :"
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:146
+#: inc/widgets/class-inesmktplc-widget-product-modules.php:116
 #, fuzzy
 msgid "Show post counts"
 msgstr "Afficher les posts"
@@ -258,7 +264,11 @@ msgstr "Afficher les posts"
 msgid "Filter Products"
 msgstr "Filtrer les produits"
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:22
+msgid "Install"
+msgstr "Installer"
+
+#: woocommerce/single-product/sidebar-single-product.php:47
 msgid "No attributes"
 msgstr ""
 "\n"

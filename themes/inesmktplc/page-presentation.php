@@ -54,47 +54,35 @@
                                     <ul class="timeline">
                                         <li class="happening">
                                             <div class="happening--period">
-                                                <p>Création d'un compte INES</p>
+                                                <p>Explorez nos apps</p>
                                             </div>
                                             <div class="happening--detail">
-                                                <h4 class="title">Vous n'êtes pas encore client INES ?</h4>
-                                                <p>INES CRM est une plateforme CRM & ERP ouverte favorisant
-                                                    l’intégration et
-                                                    la
-                                                    convergence de vos solutions & applications. Notre objectif :</p>
-                                                <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Register
-                                                    Now</a>
+                                                <h4 class="title">Un catalogue d’intégrations</h4>
+                                                <p>Marketing Automation, ERP, solutions métiers, solutions de
+                                                    messagerie, emails marketing … Découvrez notre catalogue
+                                                    d'intégrations et renforcez votre expérience INES en connectant
+                                                    simplement votre CRM à vos outils.</p>
+                                                <a href="<?php echo get_permalink(wc_get_page_id('shop')); ?>" class="btn btn--lg btn--round btn--white callto-action-btn">Catalogue</a>
                                             </div>
                                         </li>
                                         <li class="happening">
                                             <div class="happening--period">
-                                                <p>Consultation du catalogue</p>
+                                                <p>Augmentez le potentiel de vos solutions</p>
                                             </div>
                                             <div class="happening--detail">
-                                                <h4 class="title">Recherchez vos connecteurs</h4>
-                                                <p>INES CRM est une plateforme CRM & ERP ouverte favorisant
-                                                    l’intégration et
-                                                    la
-                                                    convergence de vos solutions & applications. Notre objectif :</p>
-                                                <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Call
-                                                    to Action 2</a>
+                                                <h4 class="title">Intégrez votre CRM à votre écosytème</h4>
+                                                <p>Développez les possibilités de vos solutions INES en connectant votre CRM avec les applications les plus populaires du marché. Vous centralisez et gérez tous vos outils du même endroit pour simplifier la collaboration de vos équipes, gagner en efficacité et booster votre productivité commerciale.</p>
+                                                <a href="https://www.inescrm.fr/decouvrir/solutions-metiers" class="btn btn--lg btn--round btn--white callto-action-btn" target="_blank">Solutions INES</a>
                                             </div>
                                         </li>
                                         <li class="happening">
                                             <div class="happening--period">
-                                                <p>Activation du plugin</p>
+                                                <p>Vous ne trouvez pas l’application qu’il vous faut ?</p>
                                             </div>
                                             <div class="happening--detail">
-                                                <h4 class="title">Recherchez vos connecteurs</h4>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-                                                    distinctio
-                                                    nihil
-                                                    perferendis tenetur quaerat a odit non et sit itaque repudiandae
-                                                    numquam
-                                                    magni
-                                                    atque, deleniti maiores laudantium voluptate officia natus!</p>
-                                                <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Call
-                                                    to Action 3</a>
+                                                <h4 class="title">Développez votre intégration</h4>
+                                                <p>Vous souhaitez nous proposer une intégration ? Nos API's publiques vous permettent de construire simplement votre intégration et de la tester en environnement réel via un compte de Sandbox. Intégrez notre programme développeurs et accédez à notre documentation.</p>
+                                                <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Espace API</a>
                                             </div>
                                         </li>
                                     </ul>

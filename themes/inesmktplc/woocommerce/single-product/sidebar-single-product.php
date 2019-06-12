@@ -10,16 +10,17 @@ $pid = $product->get_id();
 $pattrs = $product->get_attributes();
 
 ?>
-<pre><? php ?></pre>
 
 <div class="sidebar-card card-pricing">
-    <div class="price">
+    <!-- <div class="price">
         <p class="h1">
-            <?php echo $product->get_price_html(); ?>
+            <?php //echo $product->get_price_html(); ?>
         </p>
-    </div>
+    </div> -->
     <div class="purchase-button">
-        <a href="<?php echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round">Install</a>
+        <a href="<?php echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round">
+        <?php _e('Install', 'inesmktplc'); ?>
+    </a>
     </div>
     <!-- end /.purchase-button -->
 </div>
