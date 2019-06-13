@@ -113,7 +113,7 @@ add_theme_support( 'wc-product-gallery-slider' );
 //add_theme_support( 'wc-product-gallery-zoom' );
 
 // enable woocommerce gallery lightbox
-//add_theme_support( 'wc-product-gallery-lightbox' );
+add_theme_support( 'wc-product-gallery-lightbox' );
 
 
 // display custom translatable string instead of regular prices
