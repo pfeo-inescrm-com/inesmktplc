@@ -91,19 +91,30 @@ add_action('woocommerce_after_single_product', 'inesmktplc_wc_close_container_ta
 add_filter('woocommerce_before_main_content', 'inesmktplc_wc_add_breadcrumb_area');
 
 // remove all single product summary in single product page
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
-// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
+// also d-none on single product template
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
 
 // remove related products in single product page
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 
 // remove gallery images in single product page
-remove_action('woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20);
+//remove_action('woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20);
+
+// enable woocommerce gallery slider
+add_theme_support( 'wc-product-gallery-slider' );
+
+// enable woocommerce gallery zoom
+//add_theme_support( 'wc-product-gallery-zoom' );
+
+// enable woocommerce gallery lightbox
+//add_theme_support( 'wc-product-gallery-lightbox' );
+
 
 // display custom translatable string instead of regular prices
 add_filter('woocommerce_get_price_html', 'inesmktplc_wc_price_to_custom_string', 100, 2);
