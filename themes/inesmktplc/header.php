@@ -49,6 +49,7 @@
                                 <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a>
                             <?php endif; ?>
                         </div>
+                        <h1><strong>THIS IS DEV GENERIC</strong></h1>
                         <!-- end /.logo -->
                     </div>
                     <!-- end /.col-md-3 -->

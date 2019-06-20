@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-12 13:20+0000\n"
+"POT-Creation-Date: 2019-06-20 17:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -259,12 +259,28 @@ msgstr ""
 msgid "Filter Products"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:22
+#: woocommerce/single-product/sidebar-single-product.php:28
 msgid "Install"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:47
+#: woocommerce/single-product/sidebar-single-product.php:32
+msgid "Quotation"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:46
+msgid "Product Information"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:53
+msgid "Category"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:64
 msgid "No attributes"
+msgstr ""
+
+#: woocommerce/single-product/sidebar-single-product.php:301
+msgid "Submit"
 msgstr ""
 
 #. Name of the theme

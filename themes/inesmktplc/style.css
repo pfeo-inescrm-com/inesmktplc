@@ -2106,7 +2106,6 @@ h6, .h6 {
       -ms-flex-direction: column;
           flex-direction: column; }
   .item_remove_modal .modal-header button {
-    position: absolute;
     right: 30px;
     top: 45px; }
 
@@ -11531,4 +11530,5 @@ body.search {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
+
 /*# sourceMappingURL=style.css.map */
