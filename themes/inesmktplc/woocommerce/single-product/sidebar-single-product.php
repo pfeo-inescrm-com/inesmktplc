@@ -9,6 +9,9 @@ $pid = $product->get_id();
 // get product attributes
 $pattrs = $product->get_attributes();
 
+global $wp;
+$current_url = home_url( add_query_arg( array(), $wp->request ) );
+
 ?>
 
 <div class="sidebar-card card-pricing">
@@ -19,10 +22,7 @@ $pattrs = $product->get_attributes();
         </p>
     </div> -->
     <div class="purchase-button">
-        <!-- <a href="<?php echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round">
-        <?php
-        ?>
-    </a> -->
+        <!-- <a href="<?php //echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round"></a> -->
         <?php if ('' === $product->get_price() || 0 == $product->get_price()) : ?>
             <a href="#" class="btn btn--lg btn--round" data-target="#modalFreeProduct" data-toggle="modal">
                 <?php _e('Install', 'inesmktplc'); ?>
@@ -32,10 +32,6 @@ $pattrs = $product->get_attributes();
                 <?php _e('Quotation', 'inesmktplc'); ?>
             </a>
         <?php endif; ?>
-        <!-- <a href="mailto:peteco@marioneta.com" class="btn btn--lg btn--round">
-        <?php
-        ?>
-</a> -->
     </div>
     <!-- end /.purchase-button -->
 </div>
@@ -134,11 +130,9 @@ $pattrs = $product->get_attributes();
                         <br>
                         Vous n’êtes pas administrateur ? Pas de problèmes !
                         <br>
-                        <a href="">Partagez cette application</a> à votre administrateur de compte il pourra
+                        <a href="mailto:?subject=Nouvelle%20intégration%20-%20Marketplace%20INES%20CRM%20&body=Cher(e)%20Administrateur,%0d%0dJ'étais%20en%20train%20de%20consulter%20la%20marketplace%20INES%20CRM%20et%20j'ai%20trouvé%20cette%20application%20qui%20peut%20être%20utile%20à%20notre%20organisation%20:%0d%0d<?php echo $current_url; ?>%0d%0dPourriez-vous%20l'activer%20pour%20moi%20?%0d%0dCordialement,%0d%0d" rel="EMAIL">Partagez cette application</a> à votre administrateur de compte il pourra
                         l’installer pour vous.</p>
                     <p>En cas de problème n’hésitez pas contacter nos équipes au 0 825 157 825 ou par email à <a href="mailto:support@inescrm.com">support@inescrm.com</a></p>
-                    <!-- <button type="submit" class="btn btn--round btn-danger btn--default">Delete</button> -->
-                    <!-- <button class="btn btn--round modal_close" data-dismiss="modal">Cancel</button> -->
                 </div>
                 <!-- end /.modal-body -->
             </div>
