@@ -165,6 +165,31 @@ $facebookColor: #516ca4;
   border-radius: 4px 4px 0 0;
 }
 
+
+.flex-control-thumbs {
+  li {
+    width: 80px !important;
+    float: left !important;
+    margin: 5px !important;
+  }
+}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1) {
+  clear: unset !important;
+}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+  clear: unset !important;
+}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1) {
+  clear: unset !important
+}
+
+.woocommerce .product .images {
+  margin-bottom: 4em !important;
+}
+
 .woocommerce div.product .woocommerce-tabs,
 .woocommerce-page div.product .woocommerce-tab {
   padding: 0 30px 30px;
