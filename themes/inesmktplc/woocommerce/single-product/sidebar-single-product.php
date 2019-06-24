@@ -132,7 +132,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
                         <br>
                         <a href="mailto:?subject=Nouvelle%20intégration%20-%20Marketplace%20INES%20CRM%20&body=Cher(e)%20Administrateur,%0d%0dJ'étais%20en%20train%20de%20consulter%20la%20marketplace%20INES%20CRM%20et%20j'ai%20trouvé%20cette%20application%20qui%20peut%20être%20utile%20à%20notre%20organisation%20:%0d%0d<?php echo $current_url; ?>%0d%0dPourriez-vous%20l'activer%20pour%20moi%20?%0d%0dCordialement,%0d%0d" rel="EMAIL" target="_blank">Partagez cette application</a> à votre administrateur de compte il pourra
                         l’installer pour vous.</p>
-                    <p>En cas de problème n’hésitez pas contacter nos équipes au 0 825 157 825 ou par email à <a href="mailto:support@inescrm.com">support@inescrm.com</a></p>
+                    <p>En cas de problème n’hésitez pas contacter nos équipes au 0 825 157 825 ou par email à <a href="mailto:support@inescrm.com" rel="EMAIL" target="_blank">support@inescrm.com</a></p>
                 </div>
                 <!-- end /.modal-body -->
             </div>
