@@ -34,6 +34,8 @@
   .content_block3 .area_image.offset-image-bottom {
     margin-bottom: -50px; }
 
+.product--card-small .product-desc .product_title h4 {
+  height: 50px !important; }
 .product--card-small .product-desc ul.titlebtm {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;

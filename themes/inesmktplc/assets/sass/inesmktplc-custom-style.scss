@@ -67,6 +67,9 @@ $facebookColor: #516ca4;
 
 .product--card-small {
   .product-desc {
+    .product_title h4 {
+      height: 50px !important;
+  }
     ul.titlebtm {
       margin-bottom: 0 !important;
       padding-bottom: 0 !important;
