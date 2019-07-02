@@ -82,7 +82,7 @@
                                             <div class="happening--detail">
                                                 <h4 class="title">Développez votre intégration</h4>
                                                 <p>Vous souhaitez nous proposer une intégration ? Nos API's publiques vous permettent de construire simplement votre intégration et de la tester en environnement réel via un compte de Sandbox. Intégrez notre programme développeurs et accédez à notre documentation.</p>
-                                                <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Espace API</a>
+                                                <!-- <a href="#" class="btn btn--lg btn--round btn--white callto-action-btn">Espace API</a> -->
                                             </div>
                                         </li>
                                     </ul>
