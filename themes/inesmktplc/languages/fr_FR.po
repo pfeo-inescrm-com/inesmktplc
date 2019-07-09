@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 17:24+0000\n"
-"PO-Revision-Date: 2019-06-20 17:26+0000\n"
+"POT-Creation-Date: 2019-07-09 14:26+0000\n"
+"PO-Revision-Date: 2019-07-09 14:34+0000\n"
 "Language-Team: French (France)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
@@ -250,11 +250,13 @@ msgstr "Catégories"
 #: inc/widgets/class-inesmktplc-widget-categories.php:113
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:114
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:108
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:142
 msgid "Title:"
 msgstr "Titre :"
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:146
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:116
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:153
 #, fuzzy
 msgid "Show post counts"
 msgstr "Afficher les posts"
@@ -264,6 +266,18 @@ msgstr "Afficher les posts"
 msgid "Filter Products"
 msgstr "Filtrer les produits"
 
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:102
+msgid "Free"
+msgstr "Gratuit"
+
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:111
+msgid "On Demand"
+msgstr ""
+
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:135
+msgid "Pricing"
+msgstr "Prix"
+
 #: woocommerce/single-product/sidebar-single-product.php:28
 msgid "Install"
 msgstr "Installer"
@@ -272,21 +286,21 @@ msgstr "Installer"
 msgid "Quotation"
 msgstr "Devis"
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:42
 msgid "Product Information"
 msgstr "Information Produit"
 
-#: woocommerce/single-product/sidebar-single-product.php:53
+#: woocommerce/single-product/sidebar-single-product.php:49
 msgid "Category"
 msgstr "Catégorie"
 
-#: woocommerce/single-product/sidebar-single-product.php:64
+#: woocommerce/single-product/sidebar-single-product.php:60
 msgid "No attributes"
 msgstr ""
 "\n"
 "Aucun attribut"
 
-#: woocommerce/single-product/sidebar-single-product.php:301
+#: woocommerce/single-product/sidebar-single-product.php:310
 msgid "Submit"
 msgstr "Envoyer"
 

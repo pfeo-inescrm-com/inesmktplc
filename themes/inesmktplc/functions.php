@@ -30,6 +30,7 @@ include(get_template_directory() . '/inc/widgets.php');
 include(get_template_directory() . '/inc/widgets/class-inesmktplc-widget-categories.php');
 //include(get_template_directory() . '/inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php');
 include(get_template_directory() . '/inc/widgets/class-inesmktplc-widget-product-modules.php');
+include(get_template_directory() . '/inc/widgets/class-inesmktplc-widget-product-pricing.php');
 include(get_template_directory() . '/inc/inesmktplc-wc-template-functions.php');
 // Register Custom Navigation Walker
 require_once(get_template_directory() . '/inc/wp-bootstrap-navwalker.php');

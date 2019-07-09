@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 17:24+0000\n"
+"POT-Creation-Date: 2019-07-09 14:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -246,17 +246,31 @@ msgstr ""
 #: inc/widgets/class-inesmktplc-widget-categories.php:113
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:114
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:108
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:142
 msgid "Title:"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:146
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:116
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:153
 msgid "Show post counts"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:48
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:107
 msgid "Filter Products"
+msgstr ""
+
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:102
+msgid "Free"
+msgstr ""
+
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:111
+msgid "On Demand"
+msgstr ""
+
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:135
+msgid "Pricing"
 msgstr ""
 
 #: woocommerce/single-product/sidebar-single-product.php:28
@@ -267,19 +281,19 @@ msgstr ""
 msgid "Quotation"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:46
+#: woocommerce/single-product/sidebar-single-product.php:42
 msgid "Product Information"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:53
+#: woocommerce/single-product/sidebar-single-product.php:49
 msgid "Category"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:64
+#: woocommerce/single-product/sidebar-single-product.php:60
 msgid "No attributes"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:301
+#: woocommerce/single-product/sidebar-single-product.php:310
 msgid "Submit"
 msgstr ""
 
