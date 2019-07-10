@@ -199,6 +199,9 @@ function inesmktplc_wc_shop_container_end()
  * custom items per page dropdown
  * intended to show in products page
  * 
+ * see also: setResultsPerPage(results)
+ * in functions.php
+ * 
  */
 function inesmktplc_wc_items_per_page_dropdown()
 {

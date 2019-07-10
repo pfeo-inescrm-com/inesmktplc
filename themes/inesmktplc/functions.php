@@ -168,11 +168,10 @@ function inesmktplc_hook_javascript_footer()
 ?>
 <script>
 async function setResultsPerPage(results) {
-
   var currentUrl = window.location.href;
-  var hostname = window.location.hostname;
-  var pathname = window.location.pathname;
-  var protocol = window.location.protocol;
+  // var hostname = window.location.hostname;
+  // var pathname = window.location.pathname;
+  // var protocol = window.location.protocol;
   var search = window.location.search;
   
   if(results) {
@@ -182,13 +181,10 @@ async function setResultsPerPage(results) {
       } else if (search != '' && search.indexOf('&perpage') > -1) {
         var newPerPage = currentUrl.replace(/&perpage=\d+|\s\S/i,`&perpage=${results}` );
         await location.assign(newPerPage);
-        // await console.log(newPerPage);
       } else {
         location.assign('/?perpage=' + results);
-        // console.log('b:'+search.indexOf('perpage'));
       }
   }
-
 }
 </script>
 <?php
