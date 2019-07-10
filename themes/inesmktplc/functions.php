@@ -1,4 +1,5 @@
 <?php
+
 /**
  * INES CRM MARKETPLACE 
  * functions and definitions
@@ -108,13 +109,13 @@ remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_re
 //remove_action('woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20);
 
 // enable woocommerce gallery slider
-add_theme_support( 'wc-product-gallery-slider' );
+add_theme_support('wc-product-gallery-slider');
 
 // enable woocommerce gallery zoom
 //add_theme_support( 'wc-product-gallery-zoom' );
 
 // enable woocommerce gallery lightbox
-add_theme_support( 'wc-product-gallery-lightbox' );
+add_theme_support('wc-product-gallery-lightbox');
 
 
 // display custom translatable string instead of regular prices
@@ -165,28 +166,36 @@ add_action('woocommerce_after_shop_loop', 'inesmktplc_wc_shop_container_end', 30
  */
 function inesmktplc_hook_javascript_footer()
 {
-?>
-<script>
-async function setResultsPerPage(results) {
-  var currentUrl = window.location.href;
-  // var hostname = window.location.hostname;
-  // var pathname = window.location.pathname;
-  // var protocol = window.location.protocol;
-  var search = window.location.search;
-  
-  if(results) {
-      if(search != '' && !(search.indexOf('perpage') > -1)) {
-        location.assign(currentUrl + '&perpage=' + results);
-        // console.log('a:'+search.indexOf('perpage'));
-      } else if (search != '' && search.indexOf('&perpage') > -1) {
-        var newPerPage = currentUrl.replace(/&perpage=\d+|\s\S/i,`&perpage=${results}` );
-        await location.assign(newPerPage);
-      } else {
-        location.assign('/?perpage=' + results);
+  ?>
+  <script>
+    async function setResultsPerPage(results) {
+
+      // current url string
+      var currentUrl = window.location.href;
+      // url string that got query var string
+      var search = window.location.search;
+
+      // var hostname = window.location.hostname;
+      // var pathname = window.location.pathname;
+      // var protocol = window.location.protocol;
+
+
+      if (results) {
+        // if select was triggered on change 
+        if (search != '' && !(search.indexOf('perpage') > -1)) {
+          // if url contain query vars but NO perpage string
+          location.assign(currentUrl + '&perpage=' + results);
+        } else if (search != '' && search.indexOf('&perpage') > -1) {
+          // if url contain query vars AND no perpage string
+          var newPerPage = currentUrl.replace(/&perpage=\d+|\s\S/i, `&perpage=${results}`);
+          await location.assign(newPerPage);
+        } else {
+          // if url DOES NOT contain query vars
+          location.assign('/?perpage=' + results);
+        }
       }
-  }
-}
-</script>
+    }
+  </script>
 <?php
 }
 add_action('wp_footer', 'inesmktplc_hook_javascript_footer');
@@ -348,9 +357,3 @@ add_action('wp_logout', 'inesmktplc_auto_redirect_after_logout');
 // }
 // //This loads the function above on the login page
 // add_action( 'login_enqueue_scripts', 'inesmktplc_login_stylesheet' );
-
-
-
-
-
-
