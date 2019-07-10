@@ -209,7 +209,6 @@ function inesmktplc_wc_items_per_page_dropdown()
   echo '<select name="price" onchange="setResultsPerPage(this.value)">';
   echo '<option disabled selected>' . __('Items per page', 'inesmktplc') . '</option>';
   $orderby_options = array(
-    '5' => '5',
     '9' => '9',
     '15' => '15',
     '30' => '30'
