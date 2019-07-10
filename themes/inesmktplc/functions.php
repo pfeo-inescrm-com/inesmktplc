@@ -163,22 +163,38 @@ add_action('woocommerce_after_shop_loop', 'inesmktplc_wc_shop_container_end', 30
  * intended to show in products page
  * 
  */
-// function inesmktplc_wc_items_per_page_dropdown()
-// {
-//   $per_page = filter_input(INPUT_GET, 'perpage', FILTER_SANITIZE_NUMBER_INT);
-//   echo '<select name="price" onchange="if (this.value) window.location.href=this.value">';
-//   echo '<option disabled selected>' . __('Items per page', 'inesmtkplc') . '</option>';
-//   $orderby_options = array(
-//     '9' => '9',
-//     '15' => '15',
-//     '30' => '30'
-//   );
-//   foreach ($orderby_options as $value => $label) {
-//     echo "<option " . selected($per_page, $value) . " value='?perpage=$value'>$label " . __('items per page', 'inesmtkplc') . "</option>";
-//   }
-//   echo '</select>';
-//   echo '<span class="lnr lnr-chevron-down"></span>';
-// }
+function inesmktplc_hook_javascript_footer()
+{
+?>
+<script>
+async function setResultsPerPage(results) {
+
+  var currentUrl = window.location.href;
+  var hostname = window.location.hostname;
+  var pathname = window.location.pathname;
+  var protocol = window.location.protocol;
+  var search = window.location.search;
+  
+  if(results) {
+      if(search != '' && !(search.indexOf('perpage') > -1)) {
+        location.assign(currentUrl + '&perpage=' + results);
+        // console.log('a:'+search.indexOf('perpage'));
+      } else if (search != '' && search.indexOf('&perpage') > -1) {
+        var newPerPage = currentUrl.replace(/&perpage=\d+|\s\S/i,`&perpage=${results}` );
+        await location.assign(newPerPage);
+        // await console.log(newPerPage);
+      } else {
+        location.assign('/?perpage=' + results);
+        // console.log('b:'+search.indexOf('perpage'));
+      }
+  }
+
+}
+</script>
+<?php
+}
+add_action('wp_footer', 'inesmktplc_hook_javascript_footer');
+
 
 add_action('pre_get_posts', 'inesmktplc_pre_get_products_query');
 function inesmktplc_pre_get_products_query($query)
@@ -336,3 +352,9 @@ add_action('wp_logout', 'inesmktplc_auto_redirect_after_logout');
 // }
 // //This loads the function above on the login page
 // add_action( 'login_enqueue_scripts', 'inesmktplc_login_stylesheet' );
+
+
+
+
+
+
