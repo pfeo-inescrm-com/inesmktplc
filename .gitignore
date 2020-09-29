@@ -1,0 +1,11 @@
+index.php
+backups/
+backup*
+languages/
+plugins/
+themes/index.php
+themes/storefront/
+themes/twentynineteen/
+updraft/
+upgrade/
+uploads/

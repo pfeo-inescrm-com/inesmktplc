@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;gEAEgE;AAiBhE;;gEAEgE;AAChE,IAAK;EACD,OAAO,EAAE,QAAQ;;AAGrB,kBAAmB;EACf,UAAU,EAAE,IAAI;;AAGpB,uBAAwB;EACpB,gBAAgB,EAlBX,OAAO;;AAqBhB;;gEAEgE;AAEhE,yBAA0B;EACtB,KAAK,EAjCC,OAAO;;AAoCjB,gBAAiB;EACb,KAAK,EAlCD,IAAI;;AAwCJ;4DAAS;EACL,KAAK,EA5CP,OAAO;;AAuDjB;;gEAEgE",
+"sources": ["../sass/inescrm-mktplc-custom-style.scss"],
+"names": [],
+"file": "inescrm-mktplc-custom-style.css"
+}

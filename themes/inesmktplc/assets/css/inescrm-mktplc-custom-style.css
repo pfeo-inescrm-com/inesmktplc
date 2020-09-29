@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# General Elements
+--------------------------------------------------------------*/
+.btn {
+  padding: 0 0.7rem; }
+
+.callto-action-btn {
+  margin-top: 1rem; }
+
+.purchase-button > .btn {
+  background-color: #FF9800; }
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.top-menu-area .site-name {
+  color: #0066AC; }
+
+.search__title p {
+  color: #FFF; }
+
+.sidebar--single-product .sidebar-card.card-pricing .price *,
+.sidebar--single-product .card-pricing.item-preview .price * {
+  color: #0066AC; }
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+/*# sourceMappingURL=inescrm-mktplc-custom-style.css.map */
