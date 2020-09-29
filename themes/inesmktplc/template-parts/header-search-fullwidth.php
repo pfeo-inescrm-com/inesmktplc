@@ -32,12 +32,8 @@
                             <!-- <h3></h3> -->
                             <!-- <p></p> -->
                             <h3>
-<<<<<<< HEAD
                                 <!-- <?php // _e('Integrate <span>INES</span> with all your tools', 'inesmktplc');  ?> -->
                                 <?php _e('Integrating an ERP and CRM platform into your solutions', 'inesmktplc');  ?>
-=======
-                                <?php _e('Integrate <span>INES</span> with all your tools', 'inesmktplc');  ?>
->>>>>>> 74dd0eb6d3bda83d1030f4373415a4e3421f58d2
                             </h3>
                             <!-- <br> -->
                             <p>
