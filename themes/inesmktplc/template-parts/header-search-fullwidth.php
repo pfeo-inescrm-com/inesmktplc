@@ -71,11 +71,11 @@
                             //remove breadcrumb from homepage that is set to shop as well
                             if (is_front_page() || is_shop()) :
                                 ?>
-                                <nav class="woocommerce-breadcrumb" style="height:70px;">
-                                    <p>&nbsp;</p>
-                                </nav>
+                            <nav class="woocommerce-breadcrumb" style="height:70px;">
+                                <p>&nbsp;</p>
+                            </nav>
                             <?php else : ?>
-                                <?php woocommerce_breadcrumb(); ?>
+                            <?php woocommerce_breadcrumb(); ?>
                             <?php endif; ?>
 
 
