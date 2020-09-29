@@ -1,14 +1,12 @@
 index.php
 backups/
-<<<<<<< HEAD
 backup*
-=======
->>>>>>> 74dd0eb6d3bda83d1030f4373415a4e3421f58d2
 languages/
 plugins/
 themes/index.php
 themes/storefront/
 themes/twentynineteen/
+themes/twentytwenty/
 updraft/
 upgrade/
 uploads/
