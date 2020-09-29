@@ -23,6 +23,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
     </div> -->
     <div class="purchase-button">
         <!-- <a href="<?php //echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round"></a> -->
+<<<<<<< HEAD
         
         
         <?php if ( 'INES.Link' === $product->get_title() ) : ?>
@@ -32,11 +33,17 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
             </a>
         <?php elseif ('' === $product->get_price() || 0 == $product->get_price()) : ?>
         <!-- if  free product show install button that trigger free product modal -->
+=======
+        <?php if ('' === $product->get_price() || 0 == $product->get_price()) : ?>
+>>>>>>> 74dd0eb6d3bda83d1030f4373415a4e3421f58d2
         <a href="#" class="btn btn--lg btn--round" data-target="#modalFreeProduct" data-toggle="modal">
             <?php _e('Install', 'inesmktplc'); ?>
         </a>
         <?php else : ?>
+<<<<<<< HEAD
         <!-- if paid product trigger another modal with a form inside it -->
+=======
+>>>>>>> 74dd0eb6d3bda83d1030f4373415a4e3421f58d2
         <a href="#" class="btn btn--lg btn--round" data-target="#modalPaidProduct" data-toggle="modal">
             <?php _e('Quotation', 'inesmktplc'); ?>
         </a>

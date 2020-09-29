@@ -56,10 +56,14 @@
 
                     <!-- start .col-md-9 -->
                     <div class="col-lg-8 offset-lg-1 col-md-9 col-sm-6 col-12 d-sm-block d-flex flex-column align-items-start">
+<<<<<<< HEAD
                         <div class="h2 m-0 site-name text-sm-right">
                             <!-- <?php //bloginfo('name'); ?> -->
                             Marketplace
                         </div>
+=======
+                        <div class="h2 m-0 site-name text-sm-right"><?php bloginfo('name'); ?></div>
+>>>>>>> 74dd0eb6d3bda83d1030f4373415a4e3421f58d2
                         <!-- start .author-area logged-in -->
                         <?php
                         // if ( is_user_logged_in() ) :
