@@ -23,13 +23,14 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
     </div> -->
     <div class="purchase-button">
         <!-- <a href="<?php //echo do_shortcode('[add_to_cart_url id=' . $pid . ']') ?>" class="btn btn--lg btn--round"></a> -->
-        
-        
+
+
         <?php if ( 'INES.Link' === $product->get_title() ) : ?>
         <!-- ines.link special custom button targets to external url -->
-            <a href="https://chrome.google.com/webstore/detail/linkines/pkndfemcabhclphfdilpgkgphocaljfh" class="btn btn--lg btn--round">
+        <a href="https://chrome.google.com/webstore/detail/linkines/pkndfemcabhclphfdilpgkgphocaljfh"
+            class="btn btn--lg btn--round">
             <?php _e('Install', 'inesmktplc'); ?>
-            </a>
+        </a>
         <?php elseif ('' === $product->get_price() || 0 == $product->get_price()) : ?>
         <!-- if  free product show install button that trigger free product modal -->
         <a href="#" class="btn btn--lg btn--round" data-target="#modalFreeProduct" data-toggle="modal">

@@ -31,10 +31,10 @@
                             ?>
                             <!-- <h3></h3> -->
                             <!-- <p></p> -->
-                            <h3>
-                                <!-- <?php // _e('Integrate <span>INES</span> with all your tools', 'inesmktplc');  ?> -->
+                            <h1>
+                                <?php // _e('Integrate <span>INES</span> with all your tools', 'inesmktplc');  ?>
                                 <?php _e('Integrating an ERP and CRM platform into your solutions', 'inesmktplc');  ?>
-                            </h3>
+                            </h1>
                             <!-- <br> -->
                             <p>
                                 <?php _e('Simply connect your <span>CRM</span> to your Tools', 'inesmktplc');  ?>

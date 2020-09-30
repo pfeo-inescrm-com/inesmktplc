@@ -6088,6 +6088,7 @@ span.counter {
   text-align: center; }
   .search .search__title {
     padding-bottom: 30px; }
+    .search .search__title h1,
     .search .search__title h3 {
       font-size: 26px;
       color: #fff; }

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: INES CRM Marketplace\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-09 14:26+0000\n"
+"POT-Creation-Date: 2020-09-30 12:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -32,7 +32,7 @@ msgid "Welcome to INES Marketplace!"
 msgstr ""
 
 #: BK_20190517_home.php:54 page-home.php:50
-#: template-parts/header-search-fullwidth.php:39
+#: template-parts/header-search-fullwidth.php:40
 msgid "Simply connect your <span>CRM</span> to your Tools"
 msgstr ""
 
@@ -112,11 +112,11 @@ msgstr ""
 msgid "on demand"
 msgstr ""
 
-#: inc/inesmktplc-wc-template-functions.php:207
+#: inc/inesmktplc-wc-template-functions.php:210
 msgid "Items per page"
 msgstr ""
 
-#: inc/inesmktplc-wc-template-functions.php:214
+#: inc/inesmktplc-wc-template-functions.php:217
 msgid "items per page"
 msgstr ""
 
@@ -217,8 +217,8 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/header-search-fullwidth.php:35
-msgid "Integrate <span>INES</span> with all your tools"
+#: template-parts/header-search-fullwidth.php:36
+msgid "Integrating an ERP and CRM platform into your solutions"
 msgstr ""
 
 #: template-parts/search-form-large.php:10
@@ -234,7 +234,8 @@ msgstr ""
 msgid "Search for:"
 msgstr ""
 
-#: woocommerce/content-product.php:63 woocommerce/single-product/related.php:72
+#: woocommerce/content-product.php:63 woocommerce/single-product/related.php:85
+#: woocommerce/single-product/_BK_20200929_related.php:72
 msgid "More info"
 msgstr ""
 
@@ -246,13 +247,13 @@ msgstr ""
 #: inc/widgets/class-inesmktplc-widget-categories.php:113
 #: inc/widgets/class-inesmktplc-widget-filter-products-checkbox.php:114
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:108
-#: inc/widgets/class-inesmktplc-widget-product-pricing.php:142
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:128
 msgid "Title:"
 msgstr ""
 
 #: inc/widgets/class-inesmktplc-widget-categories.php:146
 #: inc/widgets/class-inesmktplc-widget-product-modules.php:116
-#: inc/widgets/class-inesmktplc-widget-product-pricing.php:153
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:139
 msgid "Show post counts"
 msgstr ""
 
@@ -261,39 +262,46 @@ msgstr ""
 msgid "Filter Products"
 msgstr ""
 
-#: inc/widgets/class-inesmktplc-widget-product-pricing.php:102
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:88
 msgid "Free"
 msgstr ""
 
-#: inc/widgets/class-inesmktplc-widget-product-pricing.php:111
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:97
 msgid "On Demand"
 msgstr ""
 
-#: inc/widgets/class-inesmktplc-widget-product-pricing.php:135
+#: inc/widgets/class-inesmktplc-widget-product-pricing.php:121
 msgid "Pricing"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:28
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:28
+#: woocommerce/single-product/sidebar-single-product.php:32
+#: woocommerce/single-product/sidebar-single-product.php:37
 msgid "Install"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:32
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:32
+#: woocommerce/single-product/sidebar-single-product.php:42
 msgid "Quotation"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:42
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:42
+#: woocommerce/single-product/sidebar-single-product.php:52
 msgid "Product Information"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:49
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:49
+#: woocommerce/single-product/sidebar-single-product.php:59
 msgid "Category"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:60
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:60
+#: woocommerce/single-product/sidebar-single-product.php:70
 msgid "No attributes"
 msgstr ""
 
-#: woocommerce/single-product/sidebar-single-product.php:310
+#: woocommerce/single-product/BK_20200528_sidebar-single-product.php:310
+#: woocommerce/single-product/sidebar-single-product.php:320
 msgid "Submit"
 msgstr ""
 
