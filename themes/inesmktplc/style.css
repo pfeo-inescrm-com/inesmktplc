@@ -396,7 +396,7 @@ a {
   color: #77de51; }
 
 .mcolor2 {
-  color: #feb71d; }
+  color: #f4813a; }
 
 .mcolor3 {
   color: #58c9e9; }
@@ -414,7 +414,7 @@ a {
   background: #77de51; }
 
 .mcolorbg2 {
-  background: #feb71d; }
+  background: #f4813a; }
 
 .mcolorbg3 {
   background: #58c9e9; }
@@ -1354,7 +1354,7 @@ h6, .h6 {
   border-radius: 100px; }
 
 .btn {
-  background: #28324E;
+  background: #f4813a;
   padding: 0;
   margin: 0;
   text-transform: capitalize;
@@ -1473,12 +1473,12 @@ h6, .h6 {
 
 .btn.btn--color3, .btn-warning, .btn--warning,
 .btn.btn--color3:hover, .btn-warning:hover, .btn--warning:hover {
-  background: #feb71d; }
+  background: #f4813a; }
   .btn.btn--color3.btn--bordered, .btn-warning.btn--bordered, .btn--warning.btn--bordered,
   .btn.btn--color3:hover.btn--bordered, .btn-warning:hover.btn--bordered, .btn--warning:hover.btn--bordered {
     background: none;
-    border: 1px solid #feb71d;
-    color: #feb71d; }
+    border: 1px solid #f4813a;
+    color: #f4813a; }
 
 .btn.btn--color4, .btn-info, .btn--info,
 .btn.btn--color4:hover, .btn-info:hover, .btn--info:hover {
@@ -2139,7 +2139,7 @@ h6, .h6 {
       .table tbody > tr > td.type span.sale {
         background: #77de51; }
       .table tbody > tr > td.type span.purchase {
-        background: #feb71d; }
+        background: #f4813a; }
       .table tbody > tr > td.type span.credited {
         background: #58c9e9; }
       .table tbody > tr > td.type span.withdrawal {
@@ -2300,7 +2300,7 @@ h6, .h6 {
   color: #77de51; }
 
 .mcolor2 {
-  color: #feb71d; }
+  color: #f4813a; }
 
 .mcolor3 {
   color: #58c9e9; }
@@ -2318,7 +2318,7 @@ h6, .h6 {
   background: #77de51; }
 
 .mcolorbg2 {
-  background: #feb71d; }
+  background: #f4813a; }
 
 .mcolorbg3 {
   background: #58c9e9; }
@@ -3050,9 +3050,9 @@ h6, .h6 {
   .pricing.blue:before {
     background: #28324E; }
   .pricing.yellow .pricing--btn {
-    background: #feb71d; }
+    background: #f4813a; }
   .pricing.yellow:before {
-    background: #feb71d; }
+    background: #f4813a; }
 
 /*****************************
 	-- THEME
@@ -3132,7 +3132,7 @@ h6, .h6 {
   color: #77de51; }
 
 .mcolor2 {
-  color: #feb71d; }
+  color: #f4813a; }
 
 .mcolor3 {
   color: #58c9e9; }
@@ -3150,7 +3150,7 @@ h6, .h6 {
   background: #77de51; }
 
 .mcolorbg2 {
-  background: #feb71d; }
+  background: #f4813a; }
 
 .mcolorbg3 {
   background: #58c9e9; }
@@ -4097,9 +4097,9 @@ div#ui-datepicker-div {
     background: rgba(88, 201, 233, 0.1);
     border-color: rgba(88, 201, 233, 0.1); }
   .alert.alert-warning {
-    color: #feb71d;
-    background: rgba(254, 183, 29, 0.1);
-    border-color: rgba(254, 183, 29, 0.1); }
+    color: #f4813a;
+    background: rgba(244, 129, 58, 0.1);
+    border-color: rgba(244, 129, 58, 0.1); }
   .alert.alert-danger {
     color: #ff6a6d;
     background: rgba(255, 106, 109, 0.1);
@@ -4188,7 +4188,7 @@ div#ui-datepicker-div {
   color: #77de51; }
 
 .mcolor2 {
-  color: #feb71d; }
+  color: #f4813a; }
 
 .mcolor3 {
   color: #58c9e9; }
@@ -4206,7 +4206,7 @@ div#ui-datepicker-div {
   background: #77de51; }
 
 .mcolorbg2 {
-  background: #feb71d; }
+  background: #f4813a; }
 
 .mcolorbg3 {
   background: #58c9e9; }
@@ -11545,4 +11545,5 @@ body.search {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
+
 /*# sourceMappingURL=style.css.map */
